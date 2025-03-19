@@ -1,4 +1,9 @@
 /// header style
+
+header {
+    background-color: #053048;
+}
+
 #root {
     position: relative;
     z-index: 1;
@@ -95,13 +100,14 @@
                     padding: 10px;
                     font-size: 14px;
                     line-height: 20px;
-                    color: #374151;
+                    // color: #374151;
+                    color: white;
                     @include media-breakpoint-down(md) {
                         padding: 16px;
                     }
                     &:hover {
-                        background: $primary-light;
-                        color: $text-color;                         ;
+                        // background: $primary-light;
+                        // color: $text-color;
                     }
                     &.h-desktop {
                         display: none;
