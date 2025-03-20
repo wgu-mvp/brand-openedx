@@ -107,7 +107,7 @@ header {
                     }
                     &:hover {
                         // background: $primary-light;
-                        // color: $text-color;
+                        color: $primary-light;
                     }
                     &.h-desktop {
                         display: none;
@@ -161,13 +161,13 @@ header {
                 font-weight: 500;
                 line-height: 22px;
                 padding: 20px 0;
-                color: #374151;
+                color: white;
                 margin: 0 16px 0 0;
                 display: block;
                 border-bottom: 2px solid transparent;
                 background: none;
                 &:hover {
-                    color: $text-color;
+                    color: $primary-light;
                     text-decoration: none;
                     border-bottom: 2px solid $primary;
                 }
