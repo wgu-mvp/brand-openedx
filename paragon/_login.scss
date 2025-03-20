@@ -5,7 +5,7 @@
     }
     .layout {
         min-height: 100vh;
-        background: $primary-light;
+        background: $header-color;
         padding: 20px;
         overflow: hidden;
         position: relative;
@@ -13,6 +13,7 @@
             padding: 50px;
         }
         &:after, &:before {
+            display: none;
             position: absolute;
             left: -400px;
             bottom: -400px;
@@ -27,6 +28,7 @@
             }
         }
         &:before {
+            display: none;
             right: 400px;
             top: -400px;
             left: auto;
@@ -111,7 +113,7 @@
                     font-weight: 500;
                     padding: 0 0 16px;
                     margin: 0 32px -1px 0;
-                    color: $text-color-primary;
+                    color: $primary;
                     background: none !important;
                     &:before {
                         display: none;
