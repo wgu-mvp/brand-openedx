@@ -59,7 +59,7 @@
                 max-width: 564px !important;
                 font-size: 32px;
                 line-height: 40px;
-                color: $primary !important;
+                color: white !important;
                 padding: 50px 0;
                 position: relative;
                 z-index: 1;
@@ -76,7 +76,7 @@
                     font-weight: 400;
                     font-size: 34px;
                     line-height: 40px;
-                    color: $primary !important;
+                    color: white !important;
                     display: block !important;
                     font-weight: 900;
                     @include media-breakpoint-up(sm) {
