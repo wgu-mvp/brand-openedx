@@ -91,6 +91,12 @@
 
         a.alert-link {
             display: inline-block;
+            color: white;
+            text-decoration: none;
+            &:hover {
+                color: white;
+                text-decoration: none;
+            }
         }
     }
     .course-outline-tab {
