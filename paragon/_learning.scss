@@ -91,7 +91,7 @@
 
         a.alert-link {
             display: inline-block;
-            color: white;
+            color: white !important;
             text-decoration: none;
             &:hover {
                 color: white;
