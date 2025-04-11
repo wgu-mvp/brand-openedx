@@ -1,3 +1,7 @@
+.courses-listing-item:has(article[aria-label="Open edX Demo Course"]) {
+    display: none !important;
+}
+
 // theme toggle button
 
 .theme-toggle-button{
