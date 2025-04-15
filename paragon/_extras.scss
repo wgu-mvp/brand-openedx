@@ -89,6 +89,10 @@ a.nav-item.flex-shrink-0.nav-link[href$="/instructor"] {
     display: none !important;
 }
 
+a.nav-item.flex-shrink-0.nav-link[href$="/progress"] {
+    display: none !important;
+}
+
 div.course-card-banners[data-testid="CourseCardBanners"] {
     display: none !important;
 }
