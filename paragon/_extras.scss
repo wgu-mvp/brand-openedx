@@ -89,6 +89,12 @@ a.nav-item.flex-shrink-0.nav-link[href$="/instructor"] {
     display: none !important;
 }
 
+div.course-card-banners[data-testid="CourseCardBanners"] {
+    display: none !important;
+}
+
+
+
 // div[data-testid=instructor-toolbar] {
 //     .bg-primary {
 //         background-color: #E5E7EA !important;
