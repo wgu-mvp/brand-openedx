@@ -69,6 +69,18 @@
     }
 }
 
+.course-sidebar {
+    display: none !important;
+}
+
+.course-card-banners {
+    display: none !important;
+}
+
+#courseHome-dates {
+    display: none !important;
+}
+
 // div[data-testid=instructor-toolbar] {
 //     .bg-primary {
 //         background-color: #E5E7EA !important;
