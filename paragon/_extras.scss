@@ -81,6 +81,14 @@
     display: none !important;
 }
 
+a.nav-link[href$="/instructor"] {
+    display: none !important;
+}
+
+a.nav-link[href$="/dates"] {
+    display: none !important;
+}
+
 // div[data-testid=instructor-toolbar] {
 //     .bg-primary {
 //         background-color: #E5E7EA !important;
