@@ -81,11 +81,11 @@
     display: none !important;
 }
 
-a.nav-link[href$="/instructor"] {
+a.nav-item.flex-shrink-0.nav-link[href$="/dates"] {
     display: none !important;
 }
 
-a.nav-link[href$="/dates"] {
+a.nav-item.flex-shrink-0.nav-link[href$="/instructor"] {
     display: none !important;
 }
 
