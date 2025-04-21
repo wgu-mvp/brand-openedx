@@ -93,6 +93,10 @@ a.nav-item.flex-shrink-0.nav-link[href$="/progress"] {
     display: none !important;
 }
 
+a[href="null"] {
+    display: none !important;
+}
+
 // div[data-testid=instructor-toolbar] {
 //     .bg-primary {
 //         background-color: #E5E7EA !important;
